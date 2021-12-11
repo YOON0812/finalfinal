@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(245, 230, 212);
+}
+
+#logobox {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-family: Roboto;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  #logobox:hover{
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  a{
+      text-decoration: none;
+      color: #6e2a0f;
+  }
+
+  header{
+    font-family: Roboto;
+    text-align: center;
+    font-size: 30px;
+    text-decoration-line: none;
+    margin-top: 150px;
+    color: #6e2a0f;
+  }
+
+  #categorybox{
+    position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  }
+  
+  #category{
+    display: inline-flex;
+    justify-content: center;
+    height: 40px;
+    font-family: Roboto;
+  }
+
+  #aboutme{
+   width: 200px;
+   border: 1px solid #d2744e;
+   border-right: 0px;
+   border-bottom: 0px;
+   padding-top: 14px;
+   border-top-left-radius: 10px;
+  }
+
+  #bookreview{
+    width: 200px;
+    border: 1px solid #d2744e;
+    border-right: 0px;
+    border-bottom: 0px;
+    padding-top: 14px;
+
+   }
+
+   #myfavorite{
+    width: 200px;
+    border: 1px solid #d2744e;
+    border-right: 0px;
+    border-bottom: 0px;
+    padding-top: 14px;
+
+   }
+
+   #knowledgebase{
+    width: 200px;
+    border: 1px solid #d2744e;
+    border-right: 0px;
+    border-bottom: 0px;
+    padding-top: 14px;
+
+   }
+
+   #wintervacationplan{
+    width: 200px;
+    border: 1px solid #d2744e;
+    border-bottom: 0px;
+    padding-top: 14px;
+    border-top-right-radius: 10px;
+
+   }
+
+   #aboutme:hover{
+    background-color: rgb(197, 181, 181);
+    transition: 2s;
+  }
+   
+  #bookreview:hover{
+    background-color: rgb(197, 181, 181);
+    transition: 2s;
+  }
+   
+  #myfavorite:hover{
+    background-color: rgb(197, 181, 181);
+    transition: 2s;
+  }
+   
+  #knowledgebase:hover{
+    background-color: rgb(197, 181, 181);
+    transition: 2s;
+  }
+   
+  #wintervacationplan:hover{
+    background-color: rgb(197, 181, 181);
+    transition: 2s;
+  }
+   
+   .hr1{
+        border: 0px;
+        height: 1px;
+        margin-top: 0px;
+   }
+
+   #contentbox{
+     position: relative;
+     margin-top: 130px;
+   }
+
+   #text{
+     padding-top: 50px;
+     margin-left: 14%;
+     margin-bottom: 220px;
+   }
+   #img{
+     position: absolute;
+     bottom: -110px;
+     right: 14%;
+   }
+
+   #text{
+     font-size: 50px;
+     font-weight: 600;
+     line-height: 130px;
+   }
+
+   #me{
+     width: 700px;
+     height: auto;
+     border-radius: 7px;
+     border: 3px solid black;
+   }
+
+   #me:hover{
+    transform: scale(1.5);
+    transition: 10s;
+   }
+
+   footer {
+    margin-top: 30px;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #insimg {
+    width: 40px;
+    height: auto;
+  }
+  
+  #faceimg {
+    width: 40px;
+    height: auto;
+  }
+  
+  #copy {
+    text-align: center;
+  }
+  
